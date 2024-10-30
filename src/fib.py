@@ -5,3 +5,6 @@ def fib(n):
         f, fx = fx, f+fx
     return f
 
+if __name__ == "__main__":
+    n = input("What n do you want? ")
+    print(f"{n}th Fibonacci number is: {fib(int(n))}")
